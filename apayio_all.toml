@@ -1,0 +1,283 @@
+# (C) Various $[Authors]
+# (C) ://apay.io Authors
+# (C) ://2by.me/ Authors
+# (C) 2016 luser::itsN1X
+# DayNum8089 Z1542123953
+# This was and is public
+
+
+FEDERATION_SERVER="https://apay.io/api/federation"
+DEPOSIT_SERVER="https://apay.io/api"
+TRANSFER_SERVER="https://next.apay.io/api"
+SIGNING_REQUEST_ACCOUNT="GD3CS2AR4YZ25LN6NARSSRJMUY7XQBJNGJJTQU2URRDPTPJZBYU2O3DD"
+
+NODE_NAMES=[
+"GD7FVHL2KUTUYNOJFRUUDJPDRO2MAZJ5KP6EBCU6LKXHYGZDUFBNHXQI umbrel",
+"GABTERL6TOBZXQUOPFF2L4OALH63RUNM42FFMTAYAI63UCNKPZAYYTJV apay0",
+"GC74JCAGSMQSSVPHCQSCS34R5A2FZG7JWWVJWYHFZI24FRAVIXVNGXV6 apay1",
+]
+
+ACCOUNTS=[
+"GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR",
+"GAUTUYY2THLF7SGITDFMXJVYH3LHDSMGEAKSBU267M2K7A3W543CKUEF",
+"GC5LOR3BK6KIOK7GKAUD5EGHQCMFOGHJTC7I3ELB66PTDFXORC2VM5LP",
+"GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4",
+"GDFGEXEBIMLP5UFC36TFENBHRJSW7AQZUPXNTTM2WO532KBXCVPUKFGB",
+"GCR3L4I5C2WE4C5BNHEFHLFSIYHGLZRDAUG3MOWL7R3CVVSI4XL47OTJ",
+"GCLY2O35WWOPVQOGYHON3OZ4SMK3IMGQXLMZMYVNYR3RXAF5QYNIB3AD",
+"GA7XRBMPWWIGOINPHEFLF2JMWKDP2ZAXNAWI6LWOWO4WWPFLEHNJWL5Y",
+"GDBWXSZDYO4C3EHYXRLCGU3NP55LUBEQO5K2RWIWWMXWVI57L7VUWSZA",
+"GBGVRE5DH6HGNYNLWQITKRQYGR4PWQEH6MOE5ELPY3I4XJPTZ7CVT4YW"
+]
+
+ORG_NAME="COMING SOON"
+ORG_DESCRIPTION="COMING SOON"
+ORG_PHYSICAL_ADDRESS="COMING SOON"
+ORG_PHYSICAL_ADDRESS_ATTESTATION="COMING SOON"
+ORG_PHONE_NUMBER="COMING SOON"
+ORG_PHONE_NUMBER_ATTESTATION="COMING SOON"
+ORG_URL="apay.io"
+ORG_LOGO="https://apay.io/public/logo.png"
+ORG_GITHUB="apay-io"
+ORG_OFFICIAL_EMAIL="support@apay.io"
+
+[[PRINCIPALS]]
+name="Sergey Yusupov"
+email="s@apay.io"
+telegram="umbre1"
+twitter="uniqbiun"
+keybase="umbrel"
+github="s-a-y"
+id_photo_hash=""
+verification_photo_hash=""
+
+[[CURRENCIES]]
+code="BCH"
+issuer="GAEGOS7I6TYZSVHPSN76RSPIVL3SELATXZWLFO4DIAFYJF7MPAHFE7H4"
+display_decimals=7
+name="Bitcoin Cash"
+desc="1 BCH token entitles you to receive 1 Bitcoin Cash (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent"
+image="https://apay.io/public/logo/bch.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="BCH"
+
+
+[[CURRENCIES]]
+code="BTC"
+issuer="GAUTUYY2THLF7SGITDFMXJVYH3LHDSMGEAKSBU267M2K7A3W543CKUEF"
+display_decimals=7
+name="Bitcoin"
+desc="1 BTC token entitles you to receive 1 Bitcoin (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent"
+image="https://apay.io/public/logo/btc.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="BTC"
+
+
+[[CURRENCIES]]
+code="DASH"
+issuer="GDFGEXEBIMLP5UFC36TFENBHRJSW7AQZUPXNTTM2WO532KBXCVPUKFGB"
+display_decimals=7
+name="Dash"
+desc="1 DASH token entitles you to receive 1 Dash (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent"
+image="https://apay.io/public/logo/dash.svg"
+    status="test"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="DASH"
+
+
+[[CURRENCIES]]
+code="LTC"
+issuer="GC5LOR3BK6KIOK7GKAUD5EGHQCMFOGHJTC7I3ELB66PTDFXORC2VM5LP"
+display_decimals=7
+name="Litecoin"
+desc="1 LTC token entitles you to receive 1 Litecoin (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent"
+image="https://apay.io/public/logo/ltc.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="LTC"
+
+
+[[CURRENCIES]]
+code="ETH"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="Ethereum"
+desc="1 ETH token entitles you to receive 1 ETH (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent."
+image="https://apay.io/public/logo/eth.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="ETH"
+
+
+[[CURRENCIES]]
+code="BAT"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="Basic Attention Token"
+desc="1 BAT token entitles you to receive 1 BAT token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. BAT contract 0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+image="https://apay.io/public/logo/bat.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="BAT"
+
+
+[[CURRENCIES]]
+code="KIN"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="Kin"
+desc="1 KIN token entitles you to receive 1 KIN token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. KIN contract 0x818Fc6C2Ec5986bc6E2CBf00939d90556aB12ce5"
+image="https://apay.io/public/logo/kin.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="KIN"
+
+
+[[CURRENCIES]]
+code="LINK"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="ChainLink"
+desc="1 LINK token entitles you to receive 1 LINK token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. LINK contract 0x514910771AF9Ca656af840dff83E8264EcF986CA"
+image="https://apay.io/public/logo/link.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="LINK"
+
+
+[[CURRENCIES]]
+code="MTL"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="Metal"
+desc="1 MTL token entitles you to receive 1 MTL token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. MTL contract 0xF433089366899D83a9f26A773D59ec7eCF30355e"
+image="https://apay.io/public/logo/mtl.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="MTL"
+
+
+[[CURRENCIES]]
+code="OMG"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="OmiseGO"
+desc="1 OMG token entitles you to receive 1 OMG token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. OMG contract 0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
+image="https://apay.io/public/logo/omg.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="OMG"
+
+
+[[CURRENCIES]]
+code="REP"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="Augur"
+desc="1 REP token entitles you to receive 1 REP token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. REP contract 0x1985365e9f78359a9B6AD760e32412f4a445E862"
+image="https://apay.io/public/logo/rep.png"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="REP"
+
+
+[[CURRENCIES]]
+code="SALT"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="SALT"
+desc="1 SALT token entitles you to receive 1 SALT token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. SALT contract 0x4156D3342D5c385a87D264F90653733592000581"
+image="https://apay.io/public/logo/salt.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="SALT"
+
+
+[[CURRENCIES]]
+code="ZRX"
+issuer="GBDEVU63Y6NTHJQQZIKVTC23NWLQVP3WJ2RI2OTSJTNYOIGICST6DUXR"
+display_decimals=7
+name="0xProject"
+desc="1 ZRX token entitles you to receive 1 ZRX token on Ethereum (minus outgoing transaction fee) to an address of your choice using our anchor."
+conditions="Outgoing transaction fee deducted from the amount sent. ZRX contract 0xe41d2489571d322189246dafa5ebde1f4699f498"
+image="https://apay.io/public/logo/zrx.svg"
+    status="live"
+is_asset_anchored="true"
+anchor_asset_type="crypto"
+anchor_asset="ZRX"
+
+
+
+[[CURRENCIES]]
+code="AEDT"
+issuer="GCTGGQIRX6JQI2I3ALL6OFGH6EMALDSL52RLRV7E2Y5OAZQJNI5IKBYA"
+display_decimals=7
+name="Token priced as UAE Dirham"
+desc="This is non-redeemable token, priced as UAE Dirham, for trading/hedging purposes only"
+conditions="This is non-redeemable token, priced as UAE Dirham, for trading/hedging purposes only"
+status="live"
+is_asset_anchored="false"
+anchor_asset_type="fiat"
+anchor_asset="AED"
+
+[[CURRENCIES]]
+code="AUDT"
+issuer="GC4BOCOA27V6YKZOMNOPC5R2WNWTJ5GPBYFCUIXM5BSDRQM43IMU6J7L"
+display_decimals=7
+name="Token priced as Australian Dollar"
+desc="This is non-redeemable token, priced as Australian Dollar, for trading/hedging purposes only"
+conditions="This is non-redeemable token, priced as Australian Dollar, for trading/hedging purposes only"
+status="live"
+is_asset_anchored="true"
+anchor_asset_type="fiat"
+anchor_asset="AUD"
+
+[[CURRENCIES]]
+code="RUBT"
+issuer="GCTJA6MM3K6MRQE2C4GM3EJDXF57X6NZTGPUZ77AB3WJ2FX6GXOWD4NX"
+display_decimals=7
+name="Token priced as Russian Ruble"
+desc="This is non-redeemable token, priced as Russian Ruble, for trading/hedging purposes only"
+conditions="This is non-redeemable token, priced as Russian Ruble, for trading/hedging purposes only"
+status="live"
+is_asset_anchored="false"
+anchor_asset_type="fiat"
+anchor_asset="RUB"
+
+[[CURRENCIES]]
+code="USDT"
+issuer="GCQTGZQQ5G4PTM2GL7CDIFKUBIPEC52BROAQIAPW53XBRJVN6ZJVTG6V"
+display_decimals=7
+name="Token priced as US Dollar"
+desc="This is non-redeemable token, priced as US dollar, for trading/hedging purposes only. This is NOT Tether USD and has nothing to do with it"
+conditions="This is non-redeemable token, priced as US dollar, for trading/hedging purposes only"
+status="live"
+is_asset_anchored="false"
+anchor_asset_type="fiat"
+anchor_asset="USD"
